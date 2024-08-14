@@ -1,0 +1,167 @@
+
+/* Container styling */
+.employee-list {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 20px;
+  background-color: lightblue;
+}
+
+.nav-items a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Form wrapper styling */
+.form-wrapper {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 20px;
+  max-width: 600px; /* Adjust as needed */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Form groups */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.form-group label {
+  width: 150px; /* Adjust as needed */
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.input1 {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'] {
+  margin: 0;
+}
+
+/* Designation dropdown styling */
+.designation-wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left:40px ;
+}
+
+.designation-wrap > label {
+  margin-right: 35px;
+  font-weight: bold;
+}
+
+.designation-wrap > select {
+  flex:1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Gender group styling */
+.gender-group {
+  display: flex;
+  align-items: center;
+  margin-top: 15px; margin-left:40px ;
+}
+
+.gender-group label {
+  margin-right: 60px;
+  font-weight: bold;
+}
+
+.gender-group input[type='radio'] {
+  margin-right:5px;
+  margin-bottom: -3px;
+  
+}
+
+/* Courses group styling */
+.courses-group {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.courses-group label {
+ margin-top:0;
+ font-weight: bolder;
+ margin-left: 60px;
+
+  
+
+}
+
+.courses-group input {
+ margin: 10px;
+ margin-bottom: -6px;
+  
+}
+.file1 > label{
+
+  font-weight: bolder;
+  margin-right: 120px;
+  margin-top: 15px;
+  /* margin-bottom: 40px; */
+
+}
+/* File input styling */
+ 
+.file1 ,  input[type='file'] {
+  /* margin-right:50px; */
+  margin-right: 40px;
+}
+
+.image img {
+  max-width: 50px; /* Set a maximum width for the image */
+  max-height: 50px; /* Set a maximum height for the image */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+/* Submit button styling */
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color:lightgreen;
+  color: black;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

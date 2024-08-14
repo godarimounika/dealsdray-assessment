@@ -1,0 +1,55 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.Login-wrapper{
+    width: 100%;
+    /* text-align: center;
+    justify-content: center; */
+    border: 2px solid black;
+    margin: 0 auto;
+    height: 100vh;
+  
+   
+
+}
+h1{
+    text-align: left;
+    background-color: yellow;
+   
+}
+.login-form{
+   
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin: 20px;
+}
+label>input{
+    height: 30px;
+    line-height: 5;
+    width:250px;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn{
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.btn{
+    width: 23%;
+    height: 30px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
